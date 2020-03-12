@@ -2,7 +2,7 @@ const Eris = require("eris");
 var Discord = require('discord.io');
 var logger = require('winston');
 require('dotenv').config();
-var bot = new Eris("NTc1MDI0Mjk1NDI0NTU3MDg3.XOSoYg.Jtc2nnlVXPo-S-gtGX6o4aNKG2E");
+var bot = new Eris(token);
 
 var drinkCombos = []
 var counter = 0;
